@@ -1,14 +1,15 @@
-import profilepic from './assets/hero.png'
+
+import profilePic from './assets/Darwish.jpg'
 
 function Card() {
   return (
-    <div className="card">
-      <img className="img" src={profilepic} alt="Profile" />
-      <h1>Hi i am darwish</h1>
-      <p>this is my first React project</p>
+    <div className="Card">
+      <img className="card-image" src={profilePic} alt="Darwish profile" />
+      <h2 className="card-title"> Darwish Lab </h2>
+      <p  className="card-text"> i make youtube videos and also
+     playing videos gaming </p>
     </div>
   );
 }
 
 export default Card;
- 
